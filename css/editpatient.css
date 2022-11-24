@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+body{
+    font-family: 'Kanit', sans-serif;
+    background-color: #f9f9f9;
+}   
+
+form{
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+}
+.form{
+    border-radius: 5px;
+    background-color: white;
+    width: 25%;
+    margin: 0 auto;
+}
+
+h1{
+    /* margin-top: 25vh; */
+    text-align: center;
+}
+label{
+    font-size: 20px;
+    font-weight: 1000;
+}
+
+form > div{
+    padding: 10px;
+}
+
+input:focus{
+    outline: none;
+}
+
+input{
+    padding: 5px;
+}
+
+input[type=submit]{
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #FFADBC;
+    border: none;
+    color: white;
+    font-weight: 900;
+}
+
+input[type=submit]:hover{
+    background-color: #975C8D;
+}
+
+i{
+    cursor: pointer;
+    color: #FFADBC;
+}
+i:hover{
+    color: #975C8D;
+}
